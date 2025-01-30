@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modern Hospital Management</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="main.js"></script>
+</head>
+<body>
+    <!-- Header Section -->
+    <header class="header">
+        <div class="container">
+            <div class="logo">CarePlus</div>
+            <nav class="nav">
+                <ul>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#process">Process</a></li>
+                    <li><a href="#appointment">Appointment</a></li>
+                </ul>
+            </nav>
+            <a href="#appointment" class="cta-btn">Book Now</a>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-content">
+            <h1>The Hospital of the Future, Today</h1>
+            <p>Providing innovative and compassionate healthcare services with state-of-the-art technology.</p>
+            <div class="hero-buttons">
+                <a href="#appointment" class="btn-primary">Book Appointment</a>
+                <a href="#about" class="btn-secondary">Learn More</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="services">
+        <div class="container">
+            <h2>Our Services</h2>
+            <div class="service-cards">
+                <div class="service-card">
+                    <img src="assets/images/walkin.png" alt="Walk-in Center">
+                    <h3>Walk-in Center</h3>
+                    <p>Quick access to quality care without appointments.</p>
+                </div>
+                <div class="service-card">
+                    <img src="assets/images/emergency.png" alt="Emergency Room">
+                    <h3>Emergency Room</h3>
+                    <p>24/7 emergency services with top-notch facilities.</p>
+                </div>
+                <div class="service-card">
+                    <img src="assets/images/surgery.png" alt="Surgical Services">
+                    <h3>Surgical Services</h3>
+                    <p>Comprehensive care for all surgical needs.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container about-content">
+            <div class="about-text">
+                <h2>About Us</h2>
+                <p>CarePlus is a modern hospital providing top-tier medical care, equipped with the latest technology and expert medical professionals.</p>
+                <a href="#appointment" class="btn-primary">Learn More</a>
+            </div>
+            <div class="about-image">
+                <img src="assets/images/hospital.jpg" alt="Hospital Overview">
+            </div>
+        </div>
+    </section>
+
+    <!-- Process Section -->
+    <section id="process" class="process">
+        <div class="container">
+            <h2>How We Work</h2>
+            <div class="process-steps">
+                <div class="step">
+                    <h3>Step 1</h3>
+                    <p>Fill out the online form with your details.</p>
+                </div>
+                <div class="step">
+                    <h3>Step 2</h3>
+                    <p>Book an appointment at a time convenient for you.</p>
+                </div>
+                <div class="step">
+                    <h3>Step 3</h3>
+                    <p>Receive personalized care and your medical reports.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Appointment Section -->
+    <section id="appointment" class="appointment">
+        <div class="container">
+            <h2>Book Your Appointment</h2>
+            <form class="appointment-form">
+                <div class="form-group">
+                    <input type="text" name="name" placeholder="Your Name" required>
+                </div>
+                <div class="form-group">
+                    <input type="email" name="email" placeholder="Your Email" required>
+                </div>
+                <div class="form-group">
+                    <input type="text" name="phone" placeholder="Your Phone" required>
+                </div>
+                <div class="form-group">
+                    <select name="department" required>
+                        <option value="" disabled selected>Choose Department</option>
+                        <option value="cardiology">Cardiology</option>
+                        <option value="neurology">Neurology</option>
+                        <option value="orthopedics">Orthopedics</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <textarea name="message" placeholder="Your Message"></textarea>
+                </div>
+                <button type="submit" class="btn-primary">Submit</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2025 CarePlus. All Rights Reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>
